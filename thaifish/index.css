@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li,
+a,
+svg {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #2b2b2b;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+#horizen-studios {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-btn:hover {
+  border-bottom: 1.5px solid black;
+  font-weight: bold;
+}
+
+.navbar {
+  margin-right: 15%;
+}
+
+.cta {
+  margin-right: 20px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  display: flex;
+}
+
+.content-container {
+  font-family: "Open Sans", sans-serif;
+  width: 50%;
+  height: 50%;
+  padding: 50px;
+}
+
+.thaichicken {
+  font-family: "Castoro", serif;
+  font-weight: bolder;
+  font-size: 80px;
+  color: #507048;
+}
+
+.article {
+  margin-top: 20px;
+}
+h5 {
+  font-weight: lighter;
+  color: gray;
+}
+
+.info {
+  font-weight: lighter;
+  font-size: 15px;
+  color: gray;
+}
+
+.size-options {
+  margin-top: 20px;
+}
+
+h6 {
+  font-size: 15px;
+  font-weight: normal;
+  color: grey;
+}
+
+.radio-btns {
+  margin-right: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.btns {
+  margin-top: 20px;
+}
+
+.book-a-table-btn {
+  margin-left: 20px;
+}
+
+button {
+  border: none;
+  border-radius: 50px;
+  font-size: 13px;
+  padding: 10px;
+  background-color: #444444;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #507048;
+}
+
+.image-container {
+  width: 50%;
+  height: 50%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}

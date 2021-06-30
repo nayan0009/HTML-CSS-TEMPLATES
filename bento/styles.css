@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 100px 0 100px;
+  height: 100%;
+  position: relative;
+  background-image: url(./images/unsplash1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+}
+.nav-bar {
+  padding: 15px;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+img {
+  height: 4vh;
+  width: 4vh;
+  cursor: pointer;
+}
+.logo-branding {
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+#bento {
+  font-weight: bolder;
+  margin-left: 5px;
+}
+.nav-left-btns {
+  margin-right: 20px;
+}
+#discover,
+#template,
+#generate {
+  margin: 0 20px 0 20px;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+.nav-right-btns {
+  margin: 40px;
+}
+.btn {
+  height: 100%;
+}
+.signin-btn {
+  width: 70px;
+  height: 35px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.signin-btn:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+.nav-left-btns:hover {
+  color: #50d890;
+}
+.nav-right-btns:hover {
+  color: #50d890;
+}
+.content {
+  width: 25%;
+  height: 25%;
+  margin-top: 100px;
+}
+.heading {
+  font-weight: bold;
+  font-size: 70px;
+}
+.info {
+  width: 30%;
+  height: 25%;
+  margin-top: 25px;
+}
+p {
+  font-weight: lighter;
+  font-style: normal;
+  font-size: larger;
+  color: gray;
+}
+
+.get-data {
+  margin-top: 60px;
+  border-collapse: collapse;
+}
+.get-started-btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  position: absolute;
+  border: none;
+  background-color: rgb(156, 243, 156);
+  color: black;
+  cursor: pointer;
+}
+.get-started-btn:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+input[type="text"] {
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  border-radius: 25px;
+  background-color: white;
+  border: none;
+}
+input[type="text"]:focus {
+  outline: none;
+}

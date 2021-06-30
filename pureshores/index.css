@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+}
+.image-container{
+  float: left;
+  width: 50%;
+  height: 50%;
+  
+}
+img{
+  width: 100%;
+}
+.content-container{
+  float: right;
+  width: 50%;
+  padding:0px 57px;
+  text-align: left;
+}
+.travel-site{
+  color: rgb(8, 197, 197);
+  margin-bottom: 70px;
+  margin-top: 30px;
+}
+.greeting{
+  font-size: 45px;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+.tag-line{
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-weight: bold;
+}
+input[type=text], input[type=password] {   
+  width: 100%;
+  margin-top: 7px;   
+  margin-bottom: 15px;
+  padding: 5px 2px;  
+  display: inline-block;   
+  text-decoration: none;
+  border: none;   
+  border-bottom: 2px solid rgb(10, 207, 207);
+}
+input[type=text], input[type=password]:focus{
+  outline: none;
+  border-bottom: 2px solid rgb(10, 207, 207);
+}
+.login-form{
+  font-family: 'Quicksand',sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 15px;
+  color: gray;
+}
+.btn{
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+button{
+  width: 25%;
+  height: 25%;
+  border-radius: 25px;
+  background-color:  rgb(10, 207, 207);
+  color: white;
+  font-family: 'Quicksand',sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 0px;
+  border:none;
+  cursor: pointer;
+}
+.sign-in{
+  font-family: 'Quicksand',sans-serif;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
